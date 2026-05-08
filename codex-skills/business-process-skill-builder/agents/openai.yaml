@@ -1,0 +1,4 @@
+interface:
+  display_name: "业务流程 Skill 定型"
+  short_description: "把业务需求跑通、验证并沉淀为 Codex skill。"
+  default_prompt: "根据一个业务需求，先跑通流程并完成验证，再把可复用步骤、输入输出和检查点固化为 Codex skill。"

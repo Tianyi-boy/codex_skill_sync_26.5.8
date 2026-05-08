@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ad Adjustment Briefing"
+  short_description: "Generate daily ad adjustment briefings by platform, store, and channel with recent-effect gates."
+  default_prompt: "Use the ad-adjustment-briefing skill to generate today's advertising adjustment briefing. Query generated reports, validated or imported records, and available recent performance evidence, then include every required platform, store, and ad-channel row."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Obsidian_检查_26.5.8"
+  short_description: "Audit Obsidian vault structure and standards."
+  default_prompt: "Use $obsidian-check-26-5-8 to audit the Obsidian vault against the current governance standards."

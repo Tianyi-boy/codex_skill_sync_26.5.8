@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ad Adjustment Report Lifecycle"
+  short_description: "Generate fresh-data ad adjustment reports, validate completed reports, and prepare approved records for import."
+  default_prompt: "Use the ad-adjustment-report-lifecycle skill to generate an advertising adjustment report from my rule document and ad data workbook. Resolve or apply my report date override first, then run the bundled generator script and enforce the Freshness Gate before producing recommendations. Save generated reports under Z:\\agent_data\\广告\\生成报告 unless I explicitly request another destination. After generating the workbook, stop and return the report path. If I submit a completed report, run the bundled import script; it validates first and then imports complete records into the Docker MySQL container agent-platform-mysql."
